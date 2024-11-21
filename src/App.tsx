@@ -24,7 +24,6 @@ function App() {
   return (
     <main>
       <NavBar/>
-      <HomePage/>
       <Routes>
         <Route path='/home' element={<HomePage/>}/>
         <Route path='/projects' element={<ProjectPage/>}/>
